@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Management System",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantacyFootball", "D5\FantacyFootball\FantacyFootball.csproj", "{109DC4E7-D292-4FA5-B2A8-FDAB75E3B681}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libarary Managment System", "Libarary Managment System\Libarary Managment System.csproj", "{E47EC4C8-9F87-4BB1-851B-328164D89EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Management System", "D5\Library Management System\Library Management System.csproj", "{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{109DC4E7-D292-4FA5-B2A8-FDAB75E3B681}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{109DC4E7-D292-4FA5-B2A8-FDAB75E3B681}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{109DC4E7-D292-4FA5-B2A8-FDAB75E3B681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47EC4C8-9F87-4BB1-851B-328164D89EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47EC4C8-9F87-4BB1-851B-328164D89EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47EC4C8-9F87-4BB1-851B-328164D89EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47EC4C8-9F87-4BB1-851B-328164D89EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
