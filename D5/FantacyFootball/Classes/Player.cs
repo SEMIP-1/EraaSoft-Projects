@@ -3,9 +3,9 @@ using System.Security.Cryptography.X509Certificates;
 
 public class Player
 {
-	public string Name { get; set; }
-	public int Health { get; set; }
-	public int EXP { get; set; }
+	public string? Name { get; set; }
+	public int? Health { get; set; }
+	public int? EXP { get; set; }
 
 	public string Over() 
 	{
