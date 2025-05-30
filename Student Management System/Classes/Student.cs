@@ -6,22 +6,38 @@ using System.Threading.Tasks;
 
 namespace Student_Management_System
 {
-    internal class Student
+    public class Student
     {
         #region Properties
-        public int StudentId;
-        public string Name;
-        public int Age;
-        public List<Course> Courses;
+        public int StudentId { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public List<Course> Courses { get; set; }
         #endregion
-
+        
         #region Constructors
-        public Student() { }
+        public Student() 
+        {
+            Courses = new List<Course>();
+        }
         #endregion
 
         #region Methods
-        public bool Enroll(Course course) { }
-        public string PrintDetails() { }
+        public void Enroll(Course course) 
+        {
+            this.Courses.Add(course);
+        }
+        public void PrintDetails() 
+        {  
+            Console.WriteLine($"Student ID: {StudentId}");
+            Console.WriteLine($"Student Name: {Name}");
+            Console.WriteLine($"Age: {Age}");
+            Console.WriteLine("Enrolled Courses:");
+            foreach (var course in Courses)
+            {
+                Console.WriteLine($"- {course.Title} (ID: {course.CourseId})");
+            }
+        }
         #endregion
     }
 }

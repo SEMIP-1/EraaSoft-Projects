@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace Student_Management_System
 {
-    internal class Instructor
+    public class Instructor
     {
         #region Properties
-        public int InstructorId;
-        public string Name;
-        public string Specialization;
+        public int InstructorId { get; set; }
+        public string Name { get; set; }
+        public string Specialization { get; set; }
         #endregion
 
         #region Methods
-        public string PrintDetails() { }
+        public void PrintDetails() 
+        {
+            Console.WriteLine($"Instructor ID: {InstructorId}");
+            Console.WriteLine($"Name: {Name}");
+            Console.WriteLine($"Specialization: {Specialization}");
+        }
         #endregion  
     }
 }

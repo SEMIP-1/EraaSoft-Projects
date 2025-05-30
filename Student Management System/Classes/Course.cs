@@ -6,16 +6,28 @@ using System.Threading.Tasks;
 
 namespace Student_Management_System
 {
-    internal class Course
+    public class Course
     {
         #region Properties
-        int CourseId;
-        string Title;
-        Instructor Instructor;
+        public int CourseId {get; set;}
+        public string Title { get; set; }
+        public Instructor Instructor { get; set; }
         #endregion
 
         #region Methods
-        string PrintDetails() { }
+        public void PrintDetails() 
+        {
+            Console.WriteLine($"Course ID: {CourseId}");
+            Console.WriteLine($"Title: {Title}");
+            if (Instructor != null)
+            {
+                Console.WriteLine($"Instructor: {Instructor.Name} (ID: {Instructor.InstructorId})");
+            }
+            else
+            {
+                Console.WriteLine("No instructor assigned.");
+            }
+        }
         #endregion
     }
 }
