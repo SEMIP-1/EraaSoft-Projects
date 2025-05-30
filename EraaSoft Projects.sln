@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantacyFootball", "D5\Fanta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Management System", "D5\Library Management System\Library Management System.csproj", "{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challage 3", "D5\Challage 3\Challage 3.csproj", "{F6D6A551-5DC8-4BA2-BB24-1D635AB4FFB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1F597AE-2E51-4EA8-85D4-961FADFFDCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D6A551-5DC8-4BA2-BB24-1D635AB4FFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D6A551-5DC8-4BA2-BB24-1D635AB4FFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D6A551-5DC8-4BA2-BB24-1D635AB4FFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D6A551-5DC8-4BA2-BB24-1D635AB4FFB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
