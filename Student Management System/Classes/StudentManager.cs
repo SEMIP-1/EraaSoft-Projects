@@ -51,7 +51,7 @@ namespace Student_Management_System
                 }
             }
         }
-        public Instructor FindInstructor(int instructorId) { }
+        public void FindInstructor(int instructorId) { }
         public void EnrollStudentInCourse(int studentId, int courseId) { }
         #endregion
     }
