@@ -14,6 +14,8 @@ namespace Student_Management_System
         public string Specialization { get; set; }
         #endregion
 
+
+
         #region Methods
         public void PrintDetails() 
         {

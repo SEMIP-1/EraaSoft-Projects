@@ -14,6 +14,15 @@ namespace Student_Management_System
         public Instructor Instructor { get; set; }
         #endregion
 
+        #region Constructors
+        public Course(int CourseId, string CourseName) 
+        {
+            this.CourseId = CourseId;
+            this.Title = CourseName;
+
+        }
+        #endregion
+
         #region Methods
         public void PrintDetails() 
         {
