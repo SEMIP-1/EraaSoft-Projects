@@ -11,13 +11,19 @@ namespace Examination_System
         SingleChoice=2,
         MultipleChoice=3,
     }
+    public enum QuestionLevel
+    {
+        Easy = 1,
+        Medium = 2,
+        Hard = 3,
+    }
     public abstract class Question
     {
-        public string? QLevel { get; set; }
+        public QuestionLevel QLevel { get; set; }
         public QuestionType QHeader { get; set; }
         public string? QBody { get; set; }
         public int? QMark { get; set; }
-        public Question(string? QLevel, QuestionType QHeader, string? QBody,int? QMark ) 
+        public Question(QuestionLevel QLevel, QuestionType QHeader, string? QBody,int? QMark ) 
         {
             this.QLevel = QLevel;
             this.QHeader = QHeader;
@@ -32,8 +38,9 @@ namespace Examination_System
     }
     public class TrueOrFalse : Question
     {
-        public TrueOrFalse(string? QLevel, QuestionType QHeader, string? QBody, int? QMark) : base(QLevel, QHeader, QBody, QMark)
+        public TrueOrFalse(QuestionLevel QLevel, QuestionType TrueOrFalse, string? QBody, int? QMark) : base(QLevel, TrueOrFalse, QBody, QMark)
         {
+
         }
     }
     public enum Qanswer2
@@ -45,14 +52,16 @@ namespace Examination_System
     }
     public class ChooseOne : Question
     {
-        public ChooseOne(string? QLevel, QuestionType QHeader, string? QBody, int? QMark) : base(QLevel, QHeader, QBody, QMark)
+        public ChooseOne(QuestionLevel QLevel, QuestionType ChooseOne, string? QBody, int? QMark) : base(QLevel, ChooseOne, QBody, QMark)
         {
+
         }
     }
     public class ChooseAll : Question
     {
-        public ChooseAll(string? QLevel, QuestionType QHeader, string? QBody, int? QMark) : base(QLevel, QHeader, QBody, QMark)
+        public ChooseAll(QuestionLevel QLevel, QuestionType ChooseAll, string? QBody, int? QMark) : base(QLevel, ChooseAll, QBody, QMark)
         {
+
         }
     }
 }
