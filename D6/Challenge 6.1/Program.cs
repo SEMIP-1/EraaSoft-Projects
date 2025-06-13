@@ -14,7 +14,6 @@
             Console.WriteLine(myPig.AnimalSound());    // The pig says: wee wee
             Console.WriteLine(myDog.AnimalSound());    // The dog says: bow wow
 
-
         }
     }
 }
