@@ -1,0 +1,27 @@
+Map 1
+............
+Musician(ID,Name,Phone,)
+Musician Address(St,City,ID(Musician))
+Album(Id,Date,Title,ID(Musician))
+Instrument(Name,Key)
+Song(Title,Author,ID(Album))
+Musician Play Instrument (ID(Musician),Name(Instrument))
+Musician Play Song (ID(Musician),Title(Song))
+........................................................................................
+Map 2
+............
+Sales office(NUM,Loc,Manager ID(Employee))
+Employee(ID,Name,NUM(Sales office))
+Property(ID,Add,City,State,Zip,NUM(Sales office))
+Owner(ID,Name)
+Owner Has Property(ID(Owner),ID(Property),Percent-owned)
+........................................................................................
+Map 3
+............
+Patient(ID,Name,DOB,ID(Ward),ID(Consultant))
+Consultant(ID,Name)
+Ward(ID,Name,suprvises ID(Nurse))
+Nurse(ID,Name,ID(Ward))
+Drug(Code,Rec Dosage,Brand)
+Nurse Gives Drug to Patient(Code(Drug),Date,Time,Dosage,ID(Nurse),ID(Patient))
+........................................................................................
