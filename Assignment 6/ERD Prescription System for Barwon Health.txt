@@ -1,0 +1,5 @@
+Patients(UR (Primary Key),Names, Addresses, Ages, Email, Phone, Medicare Card,Primary_Doc_Id)
+Doctors(ID (Primary Key), Name, Phone, Email, Specialty, Years)
+Drug(Trade Name (Primary Key), Drug Strength)
+Pharmaceutical Companies(ID (Primary Key), Name, Address, Phone Number)
+Patients_GetDrugFrom_Doctors (Patients_Id ,Doc_Id, Drug_Id, Date_Prescriptions, Quantity)
