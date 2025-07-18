@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 6.2", "D6\Challen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 6.3", "D6\Challenge 6.3\Challenge 6.3.csproj", "{669C3F6C-2FC0-4DAF-9DBF-774590855C79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 9.1", "Challenge 9.1\Challenge 9.1.csproj", "{62FC2F17-C5AB-4DE5-917C-3727F2E181D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 10.1", "Challenge 10.1\Challenge 10.1.csproj", "{571DECB3-6119-42A9-8C79-02755BB4E493}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{669C3F6C-2FC0-4DAF-9DBF-774590855C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669C3F6C-2FC0-4DAF-9DBF-774590855C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669C3F6C-2FC0-4DAF-9DBF-774590855C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62FC2F17-C5AB-4DE5-917C-3727F2E181D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FC2F17-C5AB-4DE5-917C-3727F2E181D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FC2F17-C5AB-4DE5-917C-3727F2E181D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FC2F17-C5AB-4DE5-917C-3727F2E181D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571DECB3-6119-42A9-8C79-02755BB4E493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571DECB3-6119-42A9-8C79-02755BB4E493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571DECB3-6119-42A9-8C79-02755BB4E493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571DECB3-6119-42A9-8C79-02755BB4E493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
