@@ -1,0 +1,1 @@
+Scaffold-DbContext 'Data Source=.;Initial Catalog= BikeStores; Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;' Microsoft.EntityFrameworkCore.SqlServer -DataAnnotations -Context 'ApplicationDbContext' -ContextDir Data -OutputDir Models
