@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Task", "Assignment 8\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challange 12.1", "Week 12\Challange 12.1\Challange 12.1.csproj", "{4AFAA4C1-C486-42F4-99A9-770CA0DBBCC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinoHospital", "Assignment 9\PinoHospital\PinoHospital.csproj", "{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4AFAA4C1-C486-42F4-99A9-770CA0DBBCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AFAA4C1-C486-42F4-99A9-770CA0DBBCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AFAA4C1-C486-42F4-99A9-770CA0DBBCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
