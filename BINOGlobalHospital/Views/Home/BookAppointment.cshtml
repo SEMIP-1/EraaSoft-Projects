@@ -11,7 +11,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Name: @item.Name </h5>
                     <p class="card-text">Specialization: @item.Specialization</p>
-                    <a href="#" class="btn btn-primary">Book Appointment</a>
+                    <a href="@Url.Action("CompleteAppointment", "Home", new { doctorId = item.Id })" class="btn btn-primary">Book Appointment</a>
                 </div>
             </div>
         </div>

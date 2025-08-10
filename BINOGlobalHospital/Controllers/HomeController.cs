@@ -38,6 +38,7 @@ public class HomeController : Controller
         }
     public ViewResult CompleteAppointment()
     {
+        
         return View();
     }
     public ViewResult ReservationsManagement()

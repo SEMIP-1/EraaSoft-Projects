@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BINOGlobalHospital")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cd4750637b9abccf151f8b43fdacba0d4168a05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e4937a98b59fb9bc94e443986b94f37fb787ddf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BINOGlobalHospital")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BINOGlobalHospital")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
