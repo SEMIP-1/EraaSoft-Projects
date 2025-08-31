@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challange 12.1", "Week 12\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinoHospital", "Assignment 9\PinoHospital\PinoHospital.csproj", "{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAXCINA", "Assignment 10\MAXCINA\MAXCINA.csproj", "{84C746C8-349A-4BBA-B9AC-5526A309FC29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC0CD6C5-1816-4053-B3FD-67BF73E2DC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C746C8-349A-4BBA-B9AC-5526A309FC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C746C8-349A-4BBA-B9AC-5526A309FC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C746C8-349A-4BBA-B9AC-5526A309FC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C746C8-349A-4BBA-B9AC-5526A309FC29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
