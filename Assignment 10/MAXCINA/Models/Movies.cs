@@ -2,7 +2,7 @@
 {
     public class Movies
     {
-        public int Id { get; set; }
+        public int MoviesId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public double Price { get; set; }
@@ -17,7 +17,7 @@
         public Cinemas Cinema { get; set; }
         public Categories Category { get; set; }
         // Navigation Properties
-        public List<Actor> Actors { get; set; }
-        public List<OrderItems> OrderItems { get; set; }
+        public List<Actors> Actors { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
     }
 }
